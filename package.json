@@ -1,0 +1,30 @@
+{
+  "name": "net-partner-starter",
+  "version": "1.1.1",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "version-patch": "bump patch --tag '%s' --commit '%s [ci skip]'",
+    "version-minor": "bump minor --tag '%s' --commit '%s [ci skip]'",
+    "version-major": "bump major --tag '%s' --commit '%s [ci skip]'"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.5.1",
+    "@jsdevtools/version-bump-prompt": "^6.1.0",
+    "bulma": "^0.9.4",
+    "eslint": "8.56.0",
+    "eslint-config-next": "14.0.4",
+    "next": "14.0.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-multi-carousel": "^2.8.4"
+  },
+  "devDependencies": {
+    "eslint-plugin-jest-dom": "^5.1.0",
+    "eslint-plugin-testing-library": "^6.2.0",
+    "sass": "^1.69.7"
+  }
+}
