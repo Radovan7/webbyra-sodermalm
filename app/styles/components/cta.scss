@@ -1,10 +1,17 @@
 .hero {
-    .hero-body {
-        margin: 0 auto;
-        text-align: center;
+	background-image: url("/img/hero-cover.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	text-align: center;
+	box-shadow: inset 0 0 0 100vmax rgba(0, 0, 0, 0.6);
 
-        .field {
-            justify-content: center;
-        }
-    }
+	.hero-body {
+		margin: 0 auto;
+		text-align: center;
+
+	.field {
+			justify-content: center;
+		}
+	}
 }
