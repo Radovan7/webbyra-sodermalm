@@ -1,5 +1,14 @@
-@import 'bulma/css/bulma.min.css';
-
+// Fonts
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap");
+@import "bulma/css/bulma.min.css";
 // Components
 @import "components/section-wrapper.scss";
 @import "components/cta.scss";
+//@import "components/navbar.scss";
+// Color Palette
+:root {
+  --primary-color: #CC3333;
+  --dark-color: #000000;
+  --light-color: #fff;
+}
