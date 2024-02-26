@@ -1,0 +1,26 @@
+:root {
+  --primary-color: #cc3333;
+  --dark-color: #000000;
+  --light-color: #fff;
+}
+
+.navbar-styling {
+  font-family: "Open Sans", "Sans serif";
+  background-color: var(--primary-color);
+  a {
+    color: var(--light-color);
+  }
+  a:focus {
+    background-color: transparent;
+    color: var(--dark-color);
+    text-decoration: underline;
+  }
+  a:hover {
+    color: var(--dark-color);
+    background-color: transparent;
+  }
+}
+
+.navbar-menu-styling {
+  background-color: var(--primary-color);
+}
