@@ -6,10 +6,10 @@
 // Components
 @import "components/section-wrapper.scss";
 @import "components/cta.scss";
-//@import "components/navbar.scss";
+@import "components/navbar.scss";
 // Color Palette
 :root {
-  --primary-color: #CC3333;
+  --primary-color: #cc3333;
   --dark-color: #000000;
   --light-color: #fff;
 }
