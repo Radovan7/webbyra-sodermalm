@@ -1,8 +1,5 @@
 .title,
-.subtitle {
-  color: var(--dark-color);
-}
-
+.subtitle,
 .content {
   color: var(--secondary-color);
 }
@@ -14,6 +11,6 @@ hr {
 }
 
 a {
-  font-size: 14px !important;
+  font-size: 0.85rem !important;
   padding: 0.75rem 7.5rem !important;
 }
