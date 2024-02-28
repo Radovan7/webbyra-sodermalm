@@ -1,0 +1,19 @@
+.title,
+.subtitle {
+  color: var(--dark-color);
+}
+
+.content {
+  color: var(--secondary-color);
+}
+
+hr {
+  border: 5px solid var(--primary-color);
+  width: 12rem;
+  margin: 2rem auto;
+}
+
+a {
+  font-size: 14px !important;
+  padding: 0.75rem 7.5rem !important;
+}

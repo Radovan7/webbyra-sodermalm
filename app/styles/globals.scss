@@ -7,9 +7,33 @@
 @import "components/section-wrapper.scss";
 @import "components/cta.scss";
 @import "components/navbar.scss";
+@import "components/content-block.scss";
+
 // Color Palette
 :root {
   --primary-color: #cc3333;
   --dark-color: #000000;
   --light-color: #fff;
+  --secondary-color: #525f7f;
+}
+
+// Button Styles
+.button-styles {
+  background: var(--primary-color);
+  box-shadow: 0px 1px 3px 0px #00000014, 0px 4px 6px 0px #32325d1c;
+  border-radius: 1.25rem;
+  padding: 1.25rem 5rem;
+  border: none;
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  color: var(--light-color);
+  font-size: 14px;
+  letter-spacing: 0.3px;
+  font-weight: 600;
+  line-height: 19px;
+  min-width: 300px;
+}
+
+.button-styles:hover {
+  color: var(--dark-color);
 }
