@@ -8,10 +8,10 @@ export default function ContentBlock({ content }) {
       <div className="container">
         <div className="has-text-centered">
           {title && (
-            <h2 className="title has-text-black p-4 is-size-2">{title}</h2>
+            <h2 className="title p-4 is-size-2 is-size-3-mobile">{title}</h2>
           )}
           {subtitle && (
-            <h4 className="subtitle has-text-black is-size-5">{subtitle}</h4>
+            <h4 className="subtitle is-size-5 is-size-6-mobile">{subtitle}</h4>
           )}
           <hr />
         </div>
