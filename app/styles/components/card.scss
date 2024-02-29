@@ -1,0 +1,25 @@
+.card-styles {
+  color: var(--light-color) !important;
+  background-color: var(--dark-color);
+}
+
+.media-content {
+  font-family: "Open Sans", "Sans serif";
+  h3 {
+    font-weight: 600;
+  }
+  p {
+    font-weight: 300;
+  }
+}
+.content {
+  a {
+    color: var(--light-color);
+    padding: 0 !important;
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+  a:hover {
+    color: var(--primary-color);
+  }
+}
