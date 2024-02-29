@@ -1,39 +1,51 @@
-import Image from "next/image";
+import Card from "./Card";
 
 const items = {
   firstItem: {
-    image: {
-      url: "/img/1280x960.png",
-      width: "1280",
-      height: "960",
+    icon: {
+      url: "/img/icons8-coding.png",
+      width: "50",
+      height: "50",
+      alt: "Icon of self closing tag",
     },
-    title: "First Title",
-    subtitle: "subtitle",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.",
+    title: "Konsulttjänst",
+    text: "Society has put up so many boundaries and limitations on what’s right and wrong that it’s almost impossible...",
+    link: {
+      url: "/",
+      text: "LÄS MER",
+    },
   },
   secondItem: {
-    image: {
-      url: "/img/1280x960.png",
-      width: "1280",
-      height: "960",
+    icon: {
+      url: "/img/icons8-e-commerce.png",
+      width: "50",
+      height: "50",
+      alt: "Icon of shopping bag displayed on monitor",
     },
-    title: "Second Title",
-    subtitle: "subtitle",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.",
+    title: "E-handel",
+    text: "Colors are good, before somebody tells you you shouldn’t like pink because that’s for girls.",
+    link: {
+      url: "/",
+      text: "LÄS MER",
+    },
   },
   thirdItem: {
-    image: {
-      url: "/img/1280x960.png",
-      width: "1280",
-      height: "960",
+    icon: {
+      url: "/img/icons8-software.png",
+      width: "50",
+      height: "50",
+      alt: "Icon of monitor with a cog",
     },
-    title: "Third Title",
-    subtitle: "subtitle",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.",
-  }
+    title: "Software",
+    text: "Because it's about motivating the doers. Because I’m here to follow my dreams and inspire other people.",
+    link: {
+      url: "/",
+      text: "LÄS MER",
+    },
+  },
 };
 
-const itemsArray = Object.keys(items).map(key => items[key]);
+const itemsArray = Object.keys(items).map((key) => items[key]);
 
 export default function Cards() {
   return (
@@ -41,29 +53,13 @@ export default function Cards() {
       <div className="container">
         <div className="columns">
           {itemsArray.map((item, index) => (
-            <div className="column card m-4" key={index}>
-              <div className="card-image">
-                <figure className="image is-4by3">
-                  <Image
-                    src={item.image.url}
-                    alt=""
-                    width={item.image.width}
-                    height={item.image.height}
-                  />
-                </figure>
-              </div>
-              <div className="card-content">
-                <div className="media">
-                  <div className="media-content">
-                    <p className="title is-4">{item.title}</p>
-                    <p className="subtitle is-6">{item.subtitle}</p>
-                  </div>
-                </div>
-                <div className="content">
-                  {item.description}
-                </div>
-              </div>
-            </div>
+            <Card
+              key={index}
+              title={item.title}
+              icon={item.icon}
+              text={item.text}
+              link={item.link}
+            />
           ))}
         </div>
       </div>
