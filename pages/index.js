@@ -2,9 +2,11 @@
 
 import Hero from "../components/Hero";
 import Cards from "../components/Cards";
-import Carousel from "../components/Carousel";
 import CTA from "../components/CTA";
 import ContentBlock from "../components/ContentBlock";
+import Portfolio from "../components/Portfolio";
+
+
 
 const content = [
   {
@@ -37,7 +39,7 @@ export default function Index() {
       <Hero />
       <Cards />
       <ContentBlock content={content[0]} />
-      <Carousel />
+      <Portfolio />
       <ContentBlock content={content[1]} />
       <CTA />
     </>
