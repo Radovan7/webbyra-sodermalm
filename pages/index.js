@@ -39,7 +39,6 @@ export default function Index() {
       <ContentBlock content={content[0]} />
       <Carousel />
       <ContentBlock content={content[1]} />
-      <CTA />
     </>
   );
 }
