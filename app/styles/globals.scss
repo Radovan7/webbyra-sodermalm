@@ -1,14 +1,16 @@
 // Fonts
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
 
-@import "bulma/css/bulma.min.css";
+@import 'bulma/css/bulma.min.css';
 // Components
-@import "components/section-wrapper.scss";
-@import "components/cta.scss";
-@import "components/navbar.scss";
-@import "components/content-block.scss";
-@import "components/card.scss";
+@import 'components/section-wrapper.scss';
+@import 'components/hero.scss';
+@import 'components/cta.scss';
+@import 'components/navbar.scss';
+@import 'components/content-block.scss';
+@import 'components/card.scss';
+@import 'components/footer.scss';
 
 // Color Palette
 :root {
@@ -26,7 +28,7 @@
   padding: 1.25rem 5rem;
   border: none;
   text-transform: uppercase;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: var(--light-color);
   font-size: 0.85rem;
   letter-spacing: 0.3px;

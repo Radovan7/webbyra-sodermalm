@@ -1,26 +1,46 @@
+import Image from "next/image"
+import mapIcon from '../public/img/map-icon.svg'
+import emailIcon from '../public/img/email-icon.svg'
+import phoneIcon from '../public/img/phone-icon.svg'
+
+
+const contactDetails = [{
+  icon: {
+    url: mapIcon,
+    alt: 'Map icon'
+  },
+  text: `Drakenbergsgatan 8
+        117 41 Stockholm`
+},
+{
+  icon: {
+    url: emailIcon,
+    alt: 'Email icon'
+  },
+  text: 'info@np011.se'
+},
+{
+  icon: {
+    url: phoneIcon,
+    alt: 'Phone icon'
+  },
+  text: '08 121 591 29'
+}]
 export default function CTA() {
   return (
-    <section className="hero is-black">
-      <div className="hero-body">
-        <div className="container">
-          <h2 className="title">
-            Join Our Newsletter
-          </h2>
-          <h4 className="subtitle">
-            Stay updated with the latest news and promotions.
-          </h4>
-          <div className="field is-grouped">
-            <div className="control">
-              <input className="input" type="email" placeholder="Your Email" />
-            </div>
-            <div className="control">
-              <a className="button is-success">
-                Subscribe
-              </a>
-            </div>
+    <div className="container actions mt-4">
+      {contactDetails.map((item, index) => <div className="cta" key={index}>
+        <button className="cta-button">
+          <div className="wrapper">
+            <Image
+              src={item.icon.url}
+              alt={item.icon.alt}
+            />
           </div>
-        </div>
+        </button>
+        <small>{item.text}</small>
       </div>
-    </section>
+      )}
+    </div>
   )
 }
