@@ -1,25 +1,21 @@
 import PortfolioCard from "./PortfolioCard";
 
-const projects = {
+const portfolio = {
   firstProject: {
     image: {
-      url: "/img/luca-bravo.png",
-      width: "480",
-      height: "480",
+      url: "/img/coding-image.png",
       fill: "true",
       alt: "image of coding",
     },
     title: "Strategiska lösningar",
     subtitle: "React JS, Gatsby, Contentful, AWS...",
-    link:  "/first-project"
+    link: "/first-project"
   },
   secondProject: {
     image: {
-      url: "/img/hero-img 1.png",
-      width: "480",
-      height: "480",
+      url: "/img/trucks-image.png",
       fill: "true",
-      alt: "Image of sugbil",
+      alt: "Image of green trucks",
     },
     title: "Webbplatsutveckling",
     subtitle: "React JS, Contentful CMS.",
@@ -27,9 +23,7 @@ const projects = {
   },
   thirdProject: {
     image: {
-      url: "/img/christopher.png",
-      width: "480",
-      height: "480",
+      url: "/img/laptop-image.png",
       fill: "true",
       alt: "image of laptop",
     },
@@ -39,11 +33,9 @@ const projects = {
   },
   fourthProject: {
     image: {
-      url: "/img/charlesdeluvio.png",
-      width: "480",
-      height: "480",
+      url: "/img/mobile-image.png",
       fill: "true",
-      alt: "image of chatting on phone",
+      alt: "image of mobile phone",
     },
     title: "Innovativa Lösningar",
     subtitle: "React JS, JavaScript, Wordpress",
@@ -51,23 +43,21 @@ const projects = {
   },
 };
 
-const projectsArray = Object.keys(projects).map((key) => projects[key]);
+const portfolioArray = Object.keys(portfolio).map((key) => portfolio[key]);
 
 export default function ProjectSection() {
   return (
-    <section className="section">
-      <div className="container">
-        <div className="columns is-gapless">
-          {projectsArray.map((project, index) => (
-            <PortfolioCard
-              key={index}
-              title={project.title}
-              image={project.image}
-              subtitle={project.subtitle}
-              link={project.link}
-            />
-          ))}
-        </div>
+    <section className="py-6">
+      <div className="portfolio-container">
+        {portfolioArray.map((project, index) => (
+          <PortfolioCard
+            key={index}
+            title={project.title}
+            image={project.image}
+            subtitle={project.subtitle}
+            link={project.link}
+          />
+        ))}
       </div>
     </section>
   );
