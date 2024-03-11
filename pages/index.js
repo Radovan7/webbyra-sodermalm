@@ -41,7 +41,6 @@ export default function Index() {
       <ContentBlock content={content[0]} />
       <Portfolio />
       <ContentBlock content={content[1]} />
-      <CTA />
     </>
   );
 }
