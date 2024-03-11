@@ -14,3 +14,16 @@ a.button-styles {
   font-size: 0.85rem !important;
   padding: 0.75rem 7.5rem !important;
 }
+
+@media screen and (max-width: 400px) {
+  a.button-styles:last-of-type {
+    padding: 0.75rem 3rem !important;
+    text-wrap: nowrap;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  a.button-styles:last-of-type {
+    padding: 0.75rem 1rem !important;
+  }
+}
