@@ -39,3 +39,20 @@
     z-index: 1;
   }
 }
+
+.portfolio-card-styles:hover {
+  scale: 1.05;
+  transition: all 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 992px) {
+  .portfolio-card-styles {
+    min-width: calc(50%) !important;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .portfolio-card-styles {
+    min-width: calc(100%) !important;
+  }
+}
