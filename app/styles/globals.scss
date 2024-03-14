@@ -27,6 +27,10 @@
   --secondary-color: #525f7f;
 }
 
+html {
+  scroll-behavior: smooth !important;
+}
+
 // Button Styles
 .button-styles {
   background: var(--primary-color);

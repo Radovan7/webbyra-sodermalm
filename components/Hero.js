@@ -1,7 +1,9 @@
+import Link from "next/link";
+
 const content = {
   title: "LÅT OSS BYGGA DIN WEBBLÖSNING!",
   heroClass: "is-medium is-black",
-  ctaButton: { text: "kontakta oss", link: "/" },
+  ctaButton: { text: "kontakta oss", link: "#contact" },
 };
 
 export default function Hero() {
@@ -13,9 +15,11 @@ export default function Hero() {
             {content.title}
           </p>
           {content.ctaButton && (
-            <button className="button button-styles" to={content.ctaButton.link} >
-              {content.ctaButton.text}
-            </button>
+            <Link href={content.ctaButton.link}>
+              <button className="button button-styles" href={content.ctaButton.link} >
+                {content.ctaButton.text}
+              </button>
+            </Link>
           )}
         </div>
       </div>
