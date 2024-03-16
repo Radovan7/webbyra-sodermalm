@@ -8,7 +8,15 @@ footer {
     color: var(--light-color);
     font-family: 'Open Sans';
 
+    h2,
+    p {
+      max-width: 664px;
+      margin: 0 auto;
+    }
+
     .social-cards {
+      max-width: 992px;
+      margin: 0 auto;
       display: flex;
       flex-wrap: wrap;
       align-items: center;
@@ -41,7 +49,7 @@ footer {
     .separator::after {
       content: '';
       border-right: 1px solid var(--light-color);
-      margin: 0 2rem;
+      margin: 0 0.7rem;
     }
 
     .separator:last-child::after {
@@ -89,16 +97,9 @@ footer {
   }
   .social-cards {
     gap: 2rem !important;
-    margin: 0 12rem;
     .social-card-styles {
       flex: 1 0 50% !important;
     }
-  }
-}
-
-@media screen and (max-width: 968px) {
-  .social-cards {
-    margin: 0 5rem;
   }
 }
 
