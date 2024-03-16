@@ -51,7 +51,7 @@ export default function Cards() {
   return (
     <section className="section" id="about-us">
       <div className="container">
-        <div className="columns">
+        <div className="columns mx-auto mb-6">
           {itemsArray.map((item, index) => (
             <Card
               key={index}

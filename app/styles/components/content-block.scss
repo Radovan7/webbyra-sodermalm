@@ -1,7 +1,15 @@
-.title,
-.subtitle,
-.content {
-  color: var(--secondary-color);
+#content-block {
+  .container {
+    max-width: 992px;
+  }
+  .title,
+  .subtitle {
+    font-weight: 600;
+    color: var(--secondary-color);
+  }
+  .content {
+    color: var(--secondary-light-color);
+  }
 }
 
 hr {

@@ -4,8 +4,13 @@
   --light-color: #fff;
 }
 
+.navbar-brand {
+  img {
+  }
+}
+
 .navbar-styling {
-  font-family: "Open Sans", "Sans serif";
+  font-family: 'Open Sans', 'Sans serif';
   background-color: var(--primary-color);
   a {
     color: var(--light-color);

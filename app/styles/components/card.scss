@@ -1,10 +1,15 @@
+#about-us {
+  .columns {
+    max-width: 992px;
+  }
+}
 .card-styles {
   color: var(--light-color) !important;
   background-color: var(--dark-color);
 }
 
 .media-content {
-  font-family: "Open Sans", "Sans serif";
+  font-family: 'Open Sans', 'Sans serif';
   h3 {
     font-weight: 600;
   }
