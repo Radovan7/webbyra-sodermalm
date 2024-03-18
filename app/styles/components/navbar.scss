@@ -3,12 +3,6 @@
   --dark-color: #000000;
   --light-color: #fff;
 }
-
-.navbar-brand {
-  img {
-  }
-}
-
 .navbar-styling {
   font-family: 'Open Sans', 'Sans serif';
   background-color: var(--primary-color);
@@ -17,11 +11,10 @@
   }
   a:focus {
     background-color: transparent;
-    color: var(--dark-color);
-    text-decoration: underline;
+    color: var(--light-color);
   }
   a:hover {
-    color: var(--dark-color);
+    color: rgba(255, 255, 255, 0.8);
     background-color: transparent;
   }
 }
