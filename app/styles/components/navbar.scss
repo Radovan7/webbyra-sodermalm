@@ -4,8 +4,15 @@
   --light-color: #fff;
 }
 
+.navbar-brand {
+  img {
+  }
+}
+
 .navbar-styling {
+
   font-family: 'Open Sans', sans-serif;
+
   background-color: var(--primary-color);
   a {
     color: var(--light-color);

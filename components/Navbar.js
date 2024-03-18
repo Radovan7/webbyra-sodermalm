@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import logo from "../assets/img/net-partner-logo.png";
+import logo from '../public/img/net-partner-logo.svg'
 
 export default function Navbar() {
   const [isActive, setIsActive] = useState(false);
