@@ -2,7 +2,6 @@
 
 import Hero from "../components/Hero";
 import Cards from "../components/Cards";
-import CTA from "../components/CTA";
 import ContentBlock from "../components/ContentBlock";
 import Portfolio from "../components/Portfolio";
 
