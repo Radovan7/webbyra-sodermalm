@@ -20,4 +20,3 @@ export default function IconCard({ title, icon, tag, bgColor, url }) {
     </a>
   )
 }
-
