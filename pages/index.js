@@ -16,7 +16,7 @@ const content = [
     description:
       "Vi är en webbyrå i Stockholm som kan hjälpa med att skapa hela lösningen till dig och din affär. Vi bygger en säljande webbsida åt dig, lägga webbsida på säkert SERVER/WEBBHOTELL, skapa afärs E-POSTADRESS och göra bästa möjliga google optimmerade sida med bra SEO ranking! Har din hemsida blivit HACKAD eller behöver uppdatering? Ingen problem, vi kan hjälpa...",
     link: {
-      to: "/las-mer",
+      to: "https://www.np011.se/webbsuport-konsulttjanst/",
       text: "LÄS MER",
     },
   },
@@ -27,7 +27,7 @@ const content = [
     description:
       "Vårt team består av webbdesigners, webbprogrammerare och optimerings- och server experter vilket gör att vi kan erbjuda kompletta tjänstepaket till dig som innebär webbplats, webbhotell eller egen server och e-postadress! Vi strävar alltid efter att föra en dialog med kunden så att idéplaneringen, realisationen av visuella och funktionella webbsajtsaspekter, support och underhåll sker i enlighet med kundens önskemål.",
     link: {
-      to: "/kom-igang-nu",
+      to: "https://www.np011.se/webbapplikation/",
       text: "Kom igång nu ",
     },
   },

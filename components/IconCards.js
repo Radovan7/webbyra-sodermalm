@@ -1,14 +1,14 @@
 import IconCard from "./IconCard"
 import instagramIcon from '../public/img/instagram.svg'
-import twitterIcon from '../public/img/twitter.svg'
+import xIcon from '../public/img/x-logo.svg'
 import facebookIcon from '../public/img/facebook.svg'
 import slackIcon from '../public/img/slack.svg'
 
 const socialMediaCards = [{
   title: 'twitter',
-  icon: { url: twitterIcon, alt: 'Twitter logo' },
+  icon: { url: xIcon, alt: 'X logo' },
   tag: '@np011AB',
-  bgColor: '#4DB5F5',
+  bgColor: '#000000',
   url: 'https://twitter.com/NetPartner011'
 }, {
   title: 'facebook',
