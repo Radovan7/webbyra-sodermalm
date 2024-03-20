@@ -4,7 +4,7 @@ import Link from "next/link";
 function PortfolioCard({ image, title, subtitle, link }) {
   return (
     <div className="portfolio-card-styles">
-      <Link href={link}>
+      <Link href={link} target="_blank">
         <Image
           src={image.url}
           alt={image.alt}

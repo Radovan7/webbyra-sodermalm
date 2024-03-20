@@ -9,7 +9,7 @@ const portfolio = {
     },
     title: "Strategiska lösningar",
     subtitle: "React JS, Gatsby, Contentful, AWS...",
-    link: "/first-project"
+    link: "https://www.np011.se/referenser/strategiska-losningar-for-fighting-brand/"
   },
   secondProject: {
     image: {
@@ -19,7 +19,7 @@ const portfolio = {
     },
     title: "Webbplatsutveckling",
     subtitle: "React JS, Contentful CMS.",
-    link: "/second-project"
+    link: "https://www.np011.se/referenser/sug-blasbil-sverige-webbplats-react-next/"
   },
   thirdProject: {
     image: {
@@ -29,7 +29,7 @@ const portfolio = {
     },
     title: "Frontend Uppgradering",
     subtitle: "Vue.js, AngularJS, GraphQL, Docker...",
-    link: "/third-project"
+    link: "https://www.np011.se/referenser/webbapplikation-spbi-automatiserade-drivmedelskostnadsberakningar-anpassade-api-losningar/"
   },
   fourthProject: {
     image: {
@@ -39,7 +39,7 @@ const portfolio = {
     },
     title: "Innovativa Lösningar",
     subtitle: "React JS, JavaScript, Wordpress",
-    link: "/fourth-project"
+    link: "https://www.np011.se/referenser/innovativa-losningar-for-digitalt-innehall/"
   },
 };
 
