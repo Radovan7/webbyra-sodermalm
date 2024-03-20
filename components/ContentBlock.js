@@ -17,8 +17,10 @@ export default function ContentBlock({ content }) {
         </div>
         <div className="content">{description}</div>
         <div className="has-text-centered mt-6">
-          <Link className="button-styles" href={link.to}>
-            {link.text}
+          <Link href={link}>
+            <button className="button-styles">
+              {link.text}
+            </button>
           </Link>
         </div>
       </div>

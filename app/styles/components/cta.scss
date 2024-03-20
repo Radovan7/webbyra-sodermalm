@@ -31,6 +31,10 @@
   cursor: pointer;
 }
 
+.cta-button:hover {
+  transform: translateY(-1px);
+}
+
 @media screen and (max-width: 968px) {
   .actions {
     gap: 2rem;

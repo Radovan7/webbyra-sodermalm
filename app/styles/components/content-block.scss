@@ -18,9 +18,10 @@ hr {
   margin: 2rem auto;
 }
 
-a.button-styles {
+a > button.button-styles {
   font-size: 0.85rem !important;
   padding: 0.75rem 7.5rem !important;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 400px) {

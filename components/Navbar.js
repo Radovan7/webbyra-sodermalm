@@ -53,4 +53,3 @@ export default function Navbar() {
   );
 }
 
-// TODO: Connect navbar links with the corresponding sections of the page
