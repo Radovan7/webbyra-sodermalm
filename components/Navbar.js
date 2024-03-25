@@ -34,16 +34,16 @@ export default function Navbar() {
             }`}
         >
           <div className="navbar-end has-text-centered">
-            <Link href="https://www.np011.se/om-oss/" target="_blank" className="navbar-item">
+            <Link href="#about-us" className="navbar-item">
               Om oss
             </Link>
-            <Link href="https://www.np011.se/webbsuport-konsulttjanst/" target="_blank" className="navbar-item">
+            <Link href="#portfolio" className="navbar-item">
               Tjänster
             </Link>
             <Link href="https://www.np011.se/kundsida/" target="_blank" className="navbar-item">
               Kundsida
             </Link>
-            <Link href="https://www.np011.se/kontakta-oss/" target="_blank" className="navbar-item">
+            <Link href="#contact" className="navbar-item">
               Kontakt
             </Link>
           </div>
@@ -52,4 +52,3 @@ export default function Navbar() {
     </nav>
   );
 }
-

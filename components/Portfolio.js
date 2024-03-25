@@ -1,5 +1,5 @@
 import PortfolioCard from "./PortfolioCard";
-// TODO: Add correct links
+
 const portfolio = {
   firstProject: {
     image: {
@@ -47,8 +47,8 @@ const portfolioArray = Object.keys(portfolio).map((key) => portfolio[key]);
 
 export default function ProjectSection() {
   return (
-    <section className="py-6">
-      <div className="portfolio-container">
+    <section className="py-6" id='portfolio'>
+      <div className="portfolio-container" >
         {portfolioArray.map((project, index) => (
           <PortfolioCard
             key={index}
