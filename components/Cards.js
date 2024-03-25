@@ -49,7 +49,7 @@ const itemsArray = Object.keys(items).map((key) => items[key]);
 
 export default function Cards() {
   return (
-    <section className="section" >
+    <section className="section" id="about-us">
       <div className="container">
         <div className="columns mx-auto mb-6">
           {itemsArray.map((item, index) => (
