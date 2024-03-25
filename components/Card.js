@@ -20,7 +20,7 @@ function Card({ icon, title, text, link }) {
           </div>
         </div>
         <div className="content">
-          <Link href={link.url}>{link.text}</Link>
+          <Link href={link.url} target="_blank">{link.text}</Link>
         </div>
       </div>
     </div>

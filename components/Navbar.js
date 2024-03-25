@@ -40,7 +40,7 @@ export default function Navbar() {
             <Link href="#portfolio" className="navbar-item">
               Tjänster
             </Link>
-            <Link href="/" className="navbar-item">
+            <Link href="https://www.np011.se/kundsida/" target="_blank" className="navbar-item">
               Kundsida
             </Link>
             <Link href="#contact" className="navbar-item">
