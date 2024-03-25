@@ -5,7 +5,7 @@ export default function CopyrightNavigation() {
       <ul className="footer-links">
         <li><a href="#about-us">Om oss</a></li>
         <li><a href="">Kundsida</a></li>
-        <li><a href="">Tjanstär</a></li>
+        <li><a href="#portfolio">Tjanstär</a></li>
       </ul>
     </div>
   )

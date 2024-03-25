@@ -15,7 +15,3 @@ export default function Footer() {
     </footer>
   );
 }
-
-// TODO: 1) Adjust design for mobile viewport
-//       2) Fix separator between social media icons
-//       3) Add links to footer nav links and CTA buttons and social media cards

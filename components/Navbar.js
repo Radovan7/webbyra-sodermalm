@@ -37,7 +37,7 @@ export default function Navbar() {
             <Link href="#about-us" className="navbar-item">
               Om oss
             </Link>
-            <Link href="/" className="navbar-item">
+            <Link href="#portfolio" className="navbar-item">
               Tjänster
             </Link>
             <Link href="/" className="navbar-item">
@@ -52,5 +52,3 @@ export default function Navbar() {
     </nav>
   );
 }
-
-// TODO: Connect navbar links with the corresponding sections of the page
