@@ -11,9 +11,9 @@ export default function Hero() {
     <section className={`hero ${content.heroClass} is-flex `}>
       <div className="container">
         <div className="hero-body is-flex is-justify-content-center is-align-items-center is-flex-direction-column">
-          <p className="title title-styles">
+          <h1 className="title title-styles">
             {content.title}
-          </p>
+          </h1>
           {content.ctaButton && (
             <Link href={content.ctaButton.link}>
               <button className="button button-styles" href={content.ctaButton.link} >

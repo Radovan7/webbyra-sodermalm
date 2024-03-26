@@ -15,7 +15,7 @@ function Card({ icon, title, text, link }) {
       <div className="card-content ">
         <div className="media">
           <div className="media-content">
-            <h3 className="is-size-4 mb-4">{title}</h3>
+            <h2 className="is-size-4 mb-4">{title}</h2>
             <p className="is-size-5">{text}</p>
           </div>
         </div>
