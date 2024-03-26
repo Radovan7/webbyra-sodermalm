@@ -4,7 +4,8 @@ const portfolio = {
   firstProject: {
     image: {
       url: "/img/coding-image.png",
-      fill: "true",
+      width: '270',
+      height: '480',
       alt: "image of coding",
     },
     title: "Strategiska lösningar",
@@ -14,7 +15,8 @@ const portfolio = {
   secondProject: {
     image: {
       url: "/img/trucks-image.png",
-      fill: "true",
+      width: '270',
+      height: '480',
       alt: "Image of green trucks",
     },
     title: "Webbplatsutveckling",
@@ -24,7 +26,8 @@ const portfolio = {
   thirdProject: {
     image: {
       url: "/img/laptop-image.png",
-      fill: "true",
+      width: '270',
+      height: '480',
       alt: "image of laptop",
     },
     title: "Frontend Uppgradering",
@@ -34,7 +37,8 @@ const portfolio = {
   fourthProject: {
     image: {
       url: "/img/mobile-image.png",
-      fill: "true",
+      width: '270',
+      height: '480',
       alt: "image of mobile phone",
     },
     title: "Innovativa Lösningar",

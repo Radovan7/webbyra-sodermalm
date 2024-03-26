@@ -8,7 +8,10 @@ function PortfolioCard({ image, title, subtitle, link }) {
         <Image
           src={image.url}
           alt={image.alt}
-          fill={image.fill}
+          // width={image.width}
+          // height={image.height}
+          fill={true}
+          loading="lazy"
         />
         <div className="image-text">
           <p className="is-size-5">{subtitle}</p>
