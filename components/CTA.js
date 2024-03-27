@@ -40,6 +40,7 @@ export default function CTA() {
               <Image
                 src={item.icon.url}
                 alt={item.icon.alt}
+                loading="lazy"
               />
             </div>
           </button>

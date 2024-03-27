@@ -9,6 +9,7 @@ export default function IconCard({ title, icon, tag, bgColor, url }) {
             <Image
               src={icon.url}
               alt={icon.alt}
+              loading="lazy"
             />
           </div>
           <div className="pb-6 pt-3">
