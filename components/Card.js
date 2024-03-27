@@ -10,6 +10,7 @@ function Card({ icon, title, text, link }) {
           alt={icon.alt}
           width={icon.width}
           height={icon.height}
+          loading="lazy"
         />
       </div>
       <div className="card-content ">
