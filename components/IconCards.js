@@ -34,7 +34,7 @@ const socialMediaCards = [{
 
 export default function IconCards() {
   return (
-    <div className="social-cards">
+    <div className="social-cards" itemProp="socialMedia">
       {socialMediaCards.map((card, index) => <IconCard key={index} title={card.title} icon={card.icon} tag={card.tag} bgColor={card.bgColor} url={card.url} />)}
     </div>
   )
