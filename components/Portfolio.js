@@ -52,7 +52,7 @@ const portfolioArray = Object.keys(portfolio).map((key) => portfolio[key]);
 export default function ProjectSection() {
   return (
     <section className="py-6" id='portfolio'>
-      <div className="portfolio-container" >
+      <div className="portfolio-container" itemScope itemType="http://schema.org/Project">
         {portfolioArray.map((project, index) => (
           <PortfolioCard
             key={index}

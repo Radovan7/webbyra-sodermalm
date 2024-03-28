@@ -34,18 +34,19 @@ export default function CTA() {
   return (
     <div className="container actions mt-4">
       {contactDetails.map((item, index) => <div className="cta" key={index}>
-        <Link href={item.url} target="_blank">
+        <Link href={item.url} target="_blank" itemProp="url">
           <button className="cta-button">
             <div className="wrapper">
               <Image
                 src={item.icon.url}
                 alt={item.icon.alt}
                 loading="lazy"
+                itemProp="image"
               />
             </div>
           </button>
         </Link>
-        <small>{item.text}</small>
+        <small itemProp="contactType">{item.text}</small>
       </div>
       )
       }

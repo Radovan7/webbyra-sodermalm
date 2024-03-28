@@ -51,7 +51,7 @@ export default function Cards() {
   return (
     <section className="section" id="about-us">
       <div className="container">
-        <div className="columns mx-auto mb-6">
+        <div className="columns mx-auto mb-6" itemScope itemType="https://schema.org/Service">
           {itemsArray.map((item, index) => (
             <Card
               key={index}

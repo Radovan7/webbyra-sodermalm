@@ -16,7 +16,7 @@ export default function Hero() {
           </h1>
           {content.ctaButton && (
             <Link href={content.ctaButton.link}>
-              <button className="button button-styles" href={content.ctaButton.link} >
+              <button className="button-styles" href={content.ctaButton.link} >
                 {content.ctaButton.text}
               </button>
             </Link>
