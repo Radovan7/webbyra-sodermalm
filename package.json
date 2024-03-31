@@ -6,6 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "sitemap": "next-sitemap --config next-sitemap.config.js",
     "lint": "next lint",
     "version-patch": "bump patch --tag '%s' --commit '%s [ci skip]'",
     "version-minor": "bump minor --tag '%s' --commit '%s [ci skip]'",
@@ -18,6 +19,7 @@
     "eslint": "8.56.0",
     "eslint-config-next": "14.0.4",
     "next": "14.0.4",
+    "next-sitemap": "^4.2.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-multi-carousel": "^2.8.4"
