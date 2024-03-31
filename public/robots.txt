@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.webbyrasodermalm.se/
+
+# Sitemaps
+Sitemap: https://www.webbyrasodermalm.se/sitemap.xml
