@@ -28,7 +28,7 @@ const contactDetails = [{
     alt: 'Phone icon'
   },
   text: '08 121 591 29',
-  url: 'tel:08 121 591 29'
+  url: 'tel:+46812159129'
 }]
 export default function CTA() {
   return (
