@@ -1,11 +1,8 @@
 "use client";
-
 import Hero from "../components/Hero";
 import Cards from "../components/Cards";
 import ContentBlock from "../components/ContentBlock";
 import Portfolio from "../components/Portfolio";
-
-
 
 const content = [
   {

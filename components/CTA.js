@@ -4,7 +4,6 @@ import emailIcon from '../public/img/email-icon.svg'
 import phoneIcon from '../public/img/phone-icon.svg'
 import Link from "next/link"
 
-
 const contactDetails = [{
   icon: {
     url: mapIcon,
