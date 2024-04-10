@@ -2,8 +2,6 @@
 
 Starter Kit :: Next.js and Bulma
 
-webbyra-sodermalm repository: https://github.com/net-partner-011-ab/webbyra-sodermalm
-
 #### Starter kit contains 3 routes:
 
 ##### index.js - Landing page
