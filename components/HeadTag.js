@@ -3,7 +3,7 @@ import Head from "next/head";
 export default function HeadTag() {
   return (
     <Head>
-      <title>Webbyrå Stockholm - Net Partner 011 AB</title>
+      <title>Webbyrå Södermalm - Net Partner 011 AB</title>
       <link rel="canonical" href='https://webbyrasodermalm.se/' />
       <meta name="description" content='Vår framgångsrika webbyrå använda agil metodik, affärsinriktad och expertis i SaaS-utveckling... samt använder den senaste teknikstacken för att skapa välstånd.' />
       <meta name="robots" content='all' />
