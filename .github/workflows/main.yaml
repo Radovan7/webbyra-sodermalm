@@ -1,0 +1,34 @@
+on:
+  push:
+    branches:
+      - 'main'
+name: 🚀 Deploy Net Partner 011 SEO website to production on push
+jobs:
+  web-deploy:
+    name: 🎉 Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🚚 Get latest code
+        uses: actions/checkout@v3
+
+      - name: Use Node.js 18
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: 🔨 Remove Cached folder
+        run: |
+          rm -rf node_modules && rm yarn.lock && rm -rf .next && rm -rf out
+
+      - name: 🔨 Build Project
+        run: |
+          yarn install
+          yarn build
+      - name: 📂 Sync files
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          port: 21
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: ./out/
