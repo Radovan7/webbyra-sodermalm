@@ -1,4 +1,16 @@
-# webbyra-sodermalm
+## Webbyrå Södermalm
+
+- **Description**: Development of a website for a marketing agency using modern technologies.
+- **Team**: This project was carried out by a team of 4 members. My contributions included:
+  - Developing features and components in React
+  - Styling and optimizing the frontend design
+- **Technologies**: React, JavaScript, HTML, CSS
+
+## Features
+
+- Fully responsive design for optimal viewing on all devices.
+- Dynamic and interactive components powered by React.
+- Sleek and modern user interface.
 
 Starter Kit :: Next.js and Bulma
 
@@ -17,7 +29,7 @@ Requirements:
 Clone a project repository to your local computer and go to project folder
 
 ```bash
-  git clone https://github.com/net-partner-011-ab/webbyra-sodermalm.git your-project-name
+  git clone https://github.com/Radovan7/webbyra-sodermalm.git your-project-name
 
   cd your-project-name
 ```
